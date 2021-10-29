@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      .img-jmbo{
+        background-image: url('4409006.jpg');
+        background-size: cover;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+        <!-- collapse -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button
+              data-toggle="collapse"
+              data-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              class="btn btn-outline-dark  my-2 my-sm-0"
+              type="button"
+            >
+              Search <i class="fa fa-search"></i>
+            </button>
+          </li>
+        </ul>
+        <!-- end collapse -->
+      </div>
+    </nav>
+    <div
+      class="row mt-1 border  bg-dark collapse"
+      id="collapseExample"
+    >
+      <div class="col-11 m-auto">
+        <form class="form">
+          <input class="form-control" type="search" placeholder="Search" />
+        </form>
+      </div>
+    </div>
+
+
+
+    <div  class="container img-jmbo ">
+
+     
+
+      <div class="jumbotron img-jmbo">
+        <h1>
+          this  is
+          jumbotron  section
+        </h1>
+        <p> this is my channel js techs :) subscribe </p>
+        <button class=" btn btn-dark"> like&share</button>
+
+      </div>
+    </div>
+
+
+
+
+
+      
+
+     <div class="container">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="904229.jpg" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="1003220.png" class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="698424.jpg" class="d-block w-100 " alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+
+
+
+
+<hr>
+
+<div class="container">
+
+  <h1 class="text-white bg-dark text-center">
+    model in bootstrap 4
+  </h1>
+
+  <button class="btn btn-success" data-target="#mymodel" data-toggle="modal"> Open singnup</button>
+   
+  <div class="modal fade" id="mymodel">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h3 class="text-center text-primary">signup</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+
+          <form >
+
+            <div class="form-group">
+              <label for="">Username:</label>
+
+              <input type="text" class="form-control" >
+
+
+
+              <label for="">password:</label>
+              <input type="password" class="form-control" >
+
+
+              <label for="">Email:</label>
+              <input type="Email" class="form-control" >
+
+
+            </div>
+
+
+          </form>
+
+        <div class="modal-footer ">
+
+          <button class="btn btn-danger  " data-dismiss="modal"> signup</button>
+        </div>
+
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <h1 class="text-center text-waring">js technology</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <img
+            src="handsome-young-man-scarf-sweater-600w-783063433.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="card text-center"> cards</h1>
+
+
+      <div class="row">
+        
+      <div class="crad  col-lg-4 col-md-4 col-sm-4 col-12 ">
+        <img
+          src="closeup-young-confident-happy-man-600w-41600866.jpg"
+          class="card-img"
+        />
+        <div class="card-body ">
+          <h3 class="card text-center">johny</h3>
+          <p class="card-text text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit officiis deleniti beatae.
+          </p>
+          <a href="#" class="btn btn-dark m-auto d-block"> click me</a>
+        </div>
+      </div>
+
+      <div class="crad col-lg-4 col-md-4 col-sm-4 col-12" >
+        <img
+          src="closeup-young-confident-happy-man-600w-41600866.jpg"
+          class="card-img"
+        />
+        <div class="card-body ">
+          <h3 class="card text-center">johny</h3>
+          <p class="card-text text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit officiis deleniti beatae.
+          </p>
+          <a href="#" class="btn btn-dark m-auto d-block"> click me</a>
+        </div>
+      </div>
+      <div class="crad col-lg-4 col-md-4 col-sm-4 col-12 " >
+        <img
+          src="closeup-young-confident-happy-man-600w-41600866.jpg"
+          class="card-img"
+        />
+        <div class="card-body ">
+          <h3 class="card text-center">johny</h3>
+          <p class="card-text text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit officiis deleniti beatae.
+          </p>
+          <a href="#" class="btn btn-dark m-auto d-block"> click me</a>
+        </div>
+      </div>
+     </div>
+
+     <hr>
+
+     <div class="cotainer">
+       <h2 class="text-center"> from contronl</h2>
+
+    <form>
+      <div class="from-group">
+      <label for="user"> User name:</label>
+      <input type="text" name="" id="user" class="form-control">
+      </div>
+
+      <div class="from-group">
+        <label for="password"> password:</label>
+        <input type="password" name="" id="password" class="form-control">
+        </div>
+
+        
+        <div class="from-group">
+          <label for="email"> email:</label>
+          <input type="email" name="" id="email" class="form-control">
+          </div>
+          <br>
+
+          <input type="submit" name="" class="btn btn-dark m-auto d-block " style="font-size: 25px;">
+    </form>
+     </div>
+     <br>
+     <div class="container ">
+
+      <h1 class="text-center">pagination </h1>
+       <ul class="pagination  pagination-lg ml-10">
+        <li class="page-item"><a href="#" class="page-link">pre</a></li>
+       
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+       
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">5</a></li>
+        <li class="page-item"><a href="#" class="page-link">6</a></li>
+        <li class="page-item"><a href="#" class="page-link">7</a></li>
+        <li class="page-item"><a href="#" class="page-link">8</a></li>
+        <li class="page-item"><a href="#" class="page-link">9</a></li>
+
+
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+       </ul>
+     </div>
+
+
+     <div class="container">
+       <button class="btn btn-dark  btn-outline-info"> maeesge
+         <span class="badge badge-dark">9</span>
+       </button>
+     </div>
+                 
+
+
+     <div class="container">
+       <div class="btn-group ">
+
+      <button class="btn btn-primary">button1</button>
+      <button class="btn btn-primary">button1</button>
+      <button class="btn btn-primary">button1</button>
+      <button class="btn btn-primary">button1</button>
+      <button class="btn btn-primary  dropdown-toggle" data-toggle="dropdown">button1</button>
+
+     
+
+
+     <div class="dropdown-menu">
+
+      <a href="#" class="dropdown-item"> link 1</a>
+      <a href="#" class="dropdown-item"> link2</a>
+      <a href="#" class="dropdown-item"> link3</a>
+      <a href="#" class="dropdown-item"> link4</a>
+      
+
+
+     </div>
+     </div>
+
+
+     <div class="container">
+      <div class="btn-group-vertical">
+
+     <button class="btn btn-primary">button1</button>
+     <button class="btn btn-primary">button1</button>
+     <button class="btn btn-primary">button1</button>
+     <button class="btn btn-primary">button1</button>
+     <button class="btn btn-primary">button1</button>
+</div> 
+    </div>
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-12 bg-info">
+          <div class="row">
+            <div class="col-12 top_div bg-warning"></div>
+            <div class="col-12 top-div bg-secondary"></div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 col-12 bg-info">
+
+        </div>
+        
+
+      </div>
+    </div>
+
+
+    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+ 

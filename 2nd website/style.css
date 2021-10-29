@@ -1,0 +1,560 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;  
+}
+
+li{
+	list-style: none;
+  } 
+
+p{
+	font-size: 3rfem;                 
+	line-height: 1.6;
+	font-weight: 400;  
+	color: #101820FF;
+}
+
+.extradiv h2 ,.servicediv h2{
+    font-size: 0.9rem;               
+    margin: 20px 0px 15px 0px;
+    font-weight: bold;
+	line-height: 1.1;
+    word-spacing: 4px;
+}
+
+i{
+ color: #2fccd0;
+}
+
+
+/*************************** actual CSS  classes starting***********************************/
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3) ,rgba(0,168,255,0.3)) ,url('file:///C:/Users/skjoh/Desktop/2nd%20website/images/bg.jpg');
+	background-repeat: no-repeat;
+	background-clip: 100% 100%;
+	background-size:cover;
+	clip-path: polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0);
+    position: relative;
+}
+
+.heading:before{
+ content: "";
+ position: absolute;
+ top: 0%;
+ bottom:0%;
+ left: 0%;
+ right: 0;
+ opacity: .3;
+ z-index: -1;
+ background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#2fccd0 100%);
+}
+.navbar:before{
+ content: "";
+ position: absolute;
+ top: 0%;
+ bottom:0%;
+ left: 0%;
+ right: 0;
+ opacity: .3;
+ z-index: -1;
+ background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#2fccd0 100%);
+}
+
+.nav-item a{
+color: #fff!important;
+font-weight:bold;
+}
+
+.header-section{
+    width: 100%;
+     height: inherit;
+     color: #fff;
+	text-align: center;
+	position: relative;
+	padding-top: 250px;
+}
+
+.header-buttons a{
+	border:1px solid #fff;
+	border-radius: 100px;
+    margin: 0 5px;
+	padding :12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400px;
+	line-height: 1.4px; 
+	text-align: center;
+}
+
+.header-buttons a:hover{
+color:#50d1d0;
+background-color: #fff;
+text-decoration: none;
+box-shadow: 0 0 20px 0 rgba( 0,0,0,0.3);
+}
+
+.center-div {
+font-size: 2rem;
+padding: 10px 0 20px 0px;
+ color: #fff;
+}
+.center-div p{
+font-size: 1.3rem;
+padding: 10px 0 20px 0px;
+ color: #fff;
+}
+
+
+
+/*********************************three extra div header start**************/
+.header-extradiv{
+		width: 100%;
+		height: auto;
+		padding: 100px;
+   }
+
+.extradiv{
+	background:#fff;
+	border:medium none;
+	padding:30px;
+	border-radius:3px;
+	transition:0.2s; 
+	text-align:center;
+}
+
+.extradiv:hover{
+	box-shadow:0 0 20px 0 rgba( 0,0,0,0.3); 
+	transform: translateY(-20px);
+}
+
+/*********************************three extra div header end**************/
+
+
+/*********************************offer section start**************/
+
+.offersection{
+	width: 100%;
+	background: #f7f7f9;
+    padding: 50px 0;
+    margin: 50px  0;
+}
+
+.offer-text{
+	padding-bottom: 50px;
+}
+
+.headings h1{
+	padding-bottom: 0px!important;
+	padding-top: 50px;
+}
+
+
+.headings p{
+ text-align: center;
+}
+.offerdiv{
+	padding-top: 20px;
+}	
+
+.service-text h2{
+
+font-size: 1.2rem;
+font-weight: 600;
+text-transform: uppercase;
+text-align:left;
+}
+
+.service-text p{
+	text-align: left;
+}
+
+
+
+.names h5{
+	color:#2fccd0;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top:10px;
+	text-align: left;
+}
+.service-icons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*********************************offer section end**************/
+
+
+/*********************************project done section start**************/
+.project{
+	width:100%;
+    height: auto;
+
+}
+
+.ex1{
+	display: flex;
+
+	justify-content:space-around;
+
+	align-self: center;
+    
+    text-align: center;
+   
+}
+.container-project{
+	margin: 100px 0;
+}
+
+.container-project h1{
+
+	font-size: 2rem;
+	text-align: center;
+
+}
+
+
+/*********************************projrct done  section end**************/
+
+/*********************************PRAICING  section start**************/
+.pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50px 0;
+	 background:linear-gradient(160deg,#2fccd0 55%,#fff 0%);
+
+}
+
+
+
+.money{
+	font-size: 40px;
+
+	line-height: 1;
+
+	color: #606060;
+}
+
+.card{
+	transition: 0.4;
+}
+.card-header{
+
+	font-size: 1.6rem;
+	font-weight: bold;
+	background:#fff!important;
+	padding: 25px !important;
+	color: #50d1d0;
+}
+.card-body{
+	padding: 30px 0px!important;
+	background: white!important;
+
+}
+
+.card-body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+}
+
+.card-footer{
+	background: white!important;
+	padding:30px 0px!important;
+	font-weight: bold;
+
+}
+
+.card-footer a{
+	border:1px solid #2fccd0;
+	border-radius: 100px;
+    margin: 0 5px;
+	padding :12px 35px;
+	outline: none;
+	color: #2fccd0;
+	font-size: 1rem;
+	font-weight: 400px;
+	line-height: 1.4; 
+	text-align: center;
+}
+
+.card:hover .card-footer a{
+
+color:#2fccd0!important;
+background-color:#fff;
+text-decoration: none;
+box-shadow: 0 0 20px 0 rgba( 0,0,0,0.3);
+}
+
+.card:hover{
+	box-shadow:0 0 20px 0 rgba( 0,0,0,0.3); 
+	transform: translateY(-20px);
+}
+
+/*********************************PRAICING   section end**************/
+
+
+/********************************* Our saticfing customers start   **************/
+.happyclients{
+	width: 100%;
+	padding: 50px 0;
+	height: 100vh;
+    background:#f7f7f9;
+
+}
+
+.box{
+      text-align: center;
+      border:1px solid rgba(0,0,0,0.2);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+     border-radius: 2px;
+     transition: 0.3s ease;
+
+
+}
+
+.box:hover{
+	background: #2fccd0;
+}
+box:hover .box a:after{
+  
+  background: white!important;
+}
+
+.box:hover p{
+
+	color: white;
+}
+.carousel-indicators{
+
+position: absolute;
+right: 0;
+bottom: -60px!important;
+
+}
+
+.carousel-indicators li{
+
+	background-color: #2fccd0!important;
+}
+
+.box a{
+	position: relative;
+
+}
+
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+
+
+}
+.box h1{
+	font-size: 18px;
+	font-weight: 700px;
+	color: #000;
+	margin-bottom: 10px;
+
+}
+.box h2{
+	font-size: 13px;
+	font-weight: 400px;
+
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+
+/********************************* Our saticfing customers end**************/
+
+
+/********************************* contact us start **************/
+
+.contactus{
+	width: 100%;
+	height: 100hv;
+	padding-top:50px;
+	padding-bottom: 130px;
+	position: relative;
+}
+.contactus:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(330deg,#2fccd0 55%,#fff 0%);
+    z-index: -1;
+}
+.form-button button{
+	border:1px solid #50d1c0;
+	border-radius: 100px;
+    margin: 0 5px;
+	padding :12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400px;
+	line-height: 1.4; 
+	text-align: center;
+	background : #fff;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+
+
+}
+   from:hover .form-button button{
+background:#fff;
+color: #50d1c0; 
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+ }
+/********************************* contact us  end**************/
+/********************************* news letter start**************/
+/********************************* contact us  end**************/
+
+.newsletter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
+
+	
+}
+
+.headings h1{
+	padding-bottom: 30px;
+}
+
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;
+     min-width: 150px;
+     min-height: 45px;
+
+
+}
+
+.input-group-text{
+	color: #fff!important;
+	background:#5bc0de!important;
+	border-radius: 0 100px 100px 0!important;
+	min-width: 120px;
+	min-height: 45px;
+
+}
+
+
+
+
+/********************************* news letter  end**************/
+
+
+/********************************* fotter  start**************/
+ .fottersection{
+
+ 	width: 100%;
+ 	height: auto;
+ 	padding:70px 0 20px 0;
+ 	background: #2fccd0;
+ 	position: relative;
+}
+
+.fottersection p{
+	color: #fff;
+}
+
+
+.fottersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+
+
+
+}
+
+.fottersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	font-weight: bold;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+}
+
+#myBtn{
+
+position: fixed;
+bottom: 20px;
+right: 40px;
+z-index: 99;
+border:none;
+color: #fff;
+background:#2fccd0;
+padding: 10px;
+border-radius: 10px;
+}
+
+#myBtn:hover{
+	background: #606060;
+}
+
+
+
+
+
+
+
+
+/*********************************fotter end**************/
+   
+
+/*******************88 media quairies**************/
+
+@media(max-width: 768px){
+
+	.nav-item{
+
+		text-align: center!important;
+	}
+
+.pricing, .happyclients{
+
+	height: auto;
+	padding: 20px;
+
+	margin-top: 50px;
+
+
+}
+
+}
+

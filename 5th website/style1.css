@@ -1,0 +1,243 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* ---------------------------------------------------navbar--------------------------------------------------------- */
+
+  
+
+
+
+
+.secv {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: 50px;
+    flex-direction: row;
+}
+
+
+  .menu {
+    width: 100%;
+    height: 10vh;
+    color: #017143;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu .logo {
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: 30px;
+  }
+  
+  
+  .menu .navbar a {
+    color: #017143;
+    
+    text-decoration: none;
+    padding: 0 25px;
+    font-weight: 600;
+
+  }
+  
+  .menu .navbar {
+    align-items: center;
+    margin: 25px;
+  }
+
+
+
+  .menu .logo-1 ,.logo-2
+  {
+      display: none;
+  }
+  
+  @media (min-width:300px)and (max-width: 500px)
+  {
+
+    .menu .navbar {
+        display: none;
+        
+        
+    }
+
+  
+      .menu .logo {
+          font-size: 25px;
+        font-weight: 700;
+        padding-left: 78px;
+        
+    }
+
+   
+}
+
+
+
+
+
+@media (min-width:501px)and (max-width: 1023px)
+
+{
+.menu .navbar
+{
+  display: none;
+}
+
+.secv .contant-1 img {
+
+
+  width: 200px;
+  padding-top: 10px;
+}
+
+
+.menu .logo
+{
+  font-size: 36px;
+
+}
+
+.secv .contant h2
+{
+  font-size: 31px;
+}
+
+
+.secv .contant h2 span {
+  font-size: 38px;
+  color: #017143;
+}
+
+.secv {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-left: 50px;
+  flex-direction: column;
+
+}
+
+
+}
+/* ---------------------------------------------------------------------------header stater here----------------------------------------------------- */
+
+
+
+
+
+
+ .secv 
+{
+ 
+ 
+ 
+
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-left: 50px;
+  
+  
+}
+
+
+
+.secv .contant {
+   width: 60%;
+}
+
+.secv .contant h2
+
+{
+
+font-size: 40px;
+font-weight: 700px;
+
+}
+
+.secv .contant h2 span
+{
+
+  font-size: 60px;
+  color: #017143;
+
+}
+
+.secv .contant p{
+  width: 80%;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: start;
+  padding-bottom: 20px;
+}
+.secv .contant  a {
+  text-decoration: none;
+  font-size: 20px;
+
+  padding: 10px;
+  background: #017143;
+  color: #fff;
+  border-radius: 8px;
+}
+
+@media (min-width:300px)and (max-width: 500px)
+
+{
+
+  .secv .contant h2 {
+    font-size: 18px;
+  }
+
+
+  .secv {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: 8px;
+    flex-direction: column;
+  
+}
+
+.secv .contant h2 span {
+  font-size: 30px;
+  color: #017143;
+}
+
+.secv .contant p {
+width: 80%;
+font-weight: 300;
+font-size: 12px;
+text-align: start;
+padding-bottom: 18px;
+
+}
+
+
+.secv .contant a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px;
+  background: #017143;
+  color: #fff;
+  border-radius: 8px;
+}
+.secv .contant-1 img {
+
+
+  width: 200px;
+  padding-top: 10px;
+}
+
+
+
+}
+
+
